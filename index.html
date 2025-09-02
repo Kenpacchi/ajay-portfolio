@@ -1,191 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ajay Gound — Portfolio</title>
-  <meta name="description" content="Portfolio of Ajay Gound — Software Developer, Competitive Programmer, and Spring Boot practitioner from IIT (BHU) Varanasi.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
-  <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ajay Gound",
-    "jobTitle": "Software Developer | Competitive Programmer",
-    "affiliation": "IIT (BHU) Varanasi",
-    "alumniOf": "IIT (BHU) Varanasi",
-    "url": "https://your-domain.example",
-    "sameAs": [
-      "https://github.com/your-github",
-      "https://www.linkedin.com/in/your-linkedin",
-      "https://www.youtube.com/@your-channel"
-    ]
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Gound | Software Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" xintegrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .section-title {
+            @apply text-3xl font-bold text-slate-800 mb-8 text-center;
+        }
+        .card {
+            @apply bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300;
+        }
+    </style>
 </head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <div class="logo">AG</div>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<body class="text-slate-700">
 
-  <main>
-    <section class="hero container">
-      <div class="hero-text">
-        <h1>Hi, I'm <span class="accent">Ajay Gound</span></h1>
-        <p class="subtitle">Software Developer · Competitive Programmer · Spring Boot</p>
-        <p class="summary">Pre-final year, Integrated Dual Degree (B.Tech + M.Tech), Mathematics & Computer Science at <strong>IIT (BHU) Varanasi</strong>. I build robust backend systems, design algorithms for scale, and love turning hard problems into elegant code.</p>
-        <div class="cta">
-          <a class="btn primary" href="assets/Ajay_Gound_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
-          <a class="btn" href="mailto:ajay@example.com">Email Me</a>
-          <a class="btn ghost" href="https://github.com/your-github" target="_blank" rel="noopener">GitHub</a>
+    <!-- Header & Hero Section -->
+    <header class="bg-slate-800 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-12">
+            <div class="text-center">
+                <h1 class="text-5xl font-extrabold tracking-tight">Ajay Gound</h1>
+                <p class="mt-4 text-xl text-slate-300">Software Developer | Competitive Programmer</p>
+            </div>
+            <div class="mt-8 flex justify-center items-center space-x-6 text-slate-300">
+                <a href="mailto:ajaygound.iitbhu@gmail.com" class="flex items-center space-x-2 hover:text-cyan-400 transition-colors">
+                    <i class="fas fa-envelope"></i>
+                    <span>ajaygound.iitbhu@gmail.com</span>
+                </a>
+                <span class="text-slate-500">|</span>
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+91 7974843494</span>
+                </div>
+                 <span class="text-slate-500">|</span>
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Vidisha, Madhya Pradesh</span>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="hero-card">
-        <div class="stats">
-          <div><span class="stat">30%+</span><span class="label">Dev speed via AI</span></div>
-          <div><span class="stat">10<sup>5</sup>+</span><span class="label">Input sizes handled</span></div>
-          <div><span class="stat">24/7</span><span class="label">System reliability focus</span></div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- About Section -->
+        <section id="about" class="mb-16">
+             <p class="text-center text-lg text-slate-600 max-w-3xl mx-auto">
+                A dedicated and passionate software developer with a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming. Experienced in building robust backend systems with Java and Spring Boot. Proven problem-solver with over 1500+ DSA problems solved and strong rankings in competitive programming.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-16">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4 flex items-center"><i class="fas fa-code mr-3 text-cyan-500"></i>Programming Skills</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="bg-cyan-100 text-cyan-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">C/C++</span></li>
+                        <li class="flex items-center"><span class="bg-cyan-100 text-cyan-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Java</span></li>
+                        <li class="flex items-center"><span class="bg-cyan-100 text-cyan-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">SQL</span></li>
+                         <li class="flex items-center"><span class="bg-cyan-100 text-cyan-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full">Spring Boot</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4 flex items-center"><i class="fas fa-tools mr-3 text-cyan-500"></i>Developer Tools</h3>
+                    <ul class="space-y-2 flex flex-wrap gap-2">
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">VSCode</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">IntelliJ IDEA</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Git</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">MySQL</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Dbeaver</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Maven</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Postman</span></li>
+                         <li class="flex items-center"><span class="bg-slate-200 text-slate-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">GenAI Tools</span></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-slate-800 mb-4 flex items-center"><i class="fas fa-book-open mr-3 text-cyan-500"></i>Core Coursework</h3>
+                    <ul class="space-y-2">
+                        <li>Data Structures & Algorithms</li>
+                        <li>Object-Oriented Programming (OOPS)</li>
+                        <li>Operating Systems (OS)</li>
+                        <li>Low-Level Design (LLD)</li>
+                        <li>High-Level Design (Basics)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-16">
+            <h2 class="section-title">Projects</h2>
+            <div class="space-y-12">
+                <!-- Project 1 -->
+                <div class="card">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Cab Booking System</h3>
+                    <p class="text-sm text-slate-500 mb-4">May 2025</p>
+                     <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Java</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">PostgreSQL</span>
+                        <span class="bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Maven</span>
+                        <span class="bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">REST APIs</span>
+                        <span class="bg-purple-100 text-purple-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LLD</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-600">
+                        <li>Engineered the backend for a cab booking service like Uber/Ola, supporting bikes, cabs, and auto-rickshaws.</li>
+                        <li>Implemented secure user authentication with retry limits and phone number verification.</li>
+                        <li>Developed a driver assignment algorithm using Manhattan distance to find the nearest available driver.</li>
+                        <li>Created dynamic fare calculation based on pickup/drop coordinates and cost-per-kilometer.</li>
+                        <li>Designed and applied LLD patterns for core entities, initially in C++ and later migrated to a scalable Spring Boot backend.</li>
+                    </ul>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <h3 class="text-2xl font-bold text-slate-800 mb-2">Music Streaming Application</h3>
+                    <p class="text-sm text-slate-500 mb-4">June 2025</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Java</span>
+                        <span class="bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Spring Boot</span>
+                        <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">PostgreSQL</span>
+                        <span class="bg-red-100 text-red-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Maven</span>
+                         <span class="bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">REST APIs</span>
+                         <span class="bg-purple-100 text-purple-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LLD</span>
+                    </div>
+                    <ul class="list-disc list-inside space-y-2 text-slate-600">
+                        <li>Developed a backend service for a Spotify-like music platform with user management, song search, and playlists.</li>
+                        <li>Built features for user signup, login, and session-based access.</li>
+                        <li>Enabled song search by name, artist, or movie, and implemented playlist creation and management.</li>
+                        <li>Created a "Trending Songs" feature by ranking songs based on views and upload date.</li>
+                        <li>Modeled entities using OOP principles and used PostgreSQL for data persistence.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="mb-16">
+            <h2 class="section-title">Honours & Achievements</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-trophy"></i></div>
+                    <h3 class="font-bold text-lg">1500+ DSA Problems</h3>
+                    <p class="text-sm text-slate-500">Solved on LeetCode, Codeforces, GFG & AtCoder.</p>
+                </div>
+                 <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-star"></i></div>
+                    <h3 class="font-bold text-lg">Knight on LeetCode</h3>
+                    <p class="text-sm text-slate-500">Max Rating: 1902 (Top 4.53% globally).</p>
+                </div>
+                <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-chart-line"></i></div>
+                    <h3 class="font-bold text-lg">Specialist on Codeforces</h3>
+                    <p class="text-sm text-slate-500">Max Rating: 1518.</p>
+                </div>
+                 <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-medal"></i></div>
+                    <h3 class="font-bold text-lg">4-Star on CodeChef</h3>
+                    <p class="text-sm text-slate-500">Max Rating: 1842.</p>
+                </div>
+                <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-globe-asia"></i></div>
+                    <h3 class="font-bold text-lg">Global Rank 1221</h3>
+                    <p class="text-sm text-slate-500">In Codeforces Round 981 (Div. 3).</p>
+                </div>
+                 <div class="card text-center">
+                    <div class="text-4xl text-cyan-500 mb-2"><i class="fas fa-laptop-code"></i></div>
+                    <h3 class="font-bold text-lg">Global Rank 968</h3>
+                    <p class="text-sm text-slate-500">In LeetCode Weekly Contest 445.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="education">
+            <h2 class="section-title">Academic Profile</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="card mb-6">
+                    <h3 class="text-xl font-bold text-slate-800">Integrated Dual Degree (IDD), Mathematical Sciences</h3>
+                    <p class="text-slate-600">Indian Institute of Technology (BHU), Varanasi</p>
+                    <p class="text-sm text-slate-500 mt-1">Expected 2027 | CGPA: 7.07</p>
+                </div>
+                 <div class="grid md:grid-cols-2 gap-6">
+                    <div class="card">
+                        <h3 class="text-lg font-bold text-slate-800">MPBSE (XII)</h3>
+                        <p class="text-slate-600">The Eminent High School</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-lg font-bold text-slate-800">CBSE (X)</h3>
+                        <p class="text-slate-600">Agarwal Academy School, Vidisha</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-white mt-16 py-6">
+        <div class="container mx-auto px-6 text-center text-slate-400">
+            <p>&copy; 2025 Ajay Gound. All Rights Reserved.</p>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <section id="about" class="container section">
-      <h2>About</h2>
-      <p>I focus on building reliable backend services and solving algorithmic challenges. Recently, I have been developing a <strong>Problem-Solving-Platform</strong> in <strong>Java Spring Boot</strong> (Maven) integrated with GitHub, supporting users, problems, contests, and rankings.</p>
-      <p>On the side, I run a <strong>motivation-focused YouTube channel</strong>, where I share study systems and developer productivity tips.</p>
-    </section>
-
-    <section id="skills" class="container section">
-      <h2>Skills</h2>
-      <ul class="chips">
-        <li>C++</li>
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>REST APIs</li>
-        <li>PostgreSQL/MySQL</li>
-        <li>GitHub Actions</li>
-        <li>Docker</li>
-        <li>Data Structures & Algorithms</li>
-        <li>LLD & OOP</li>
-        <li>System Design (basics)</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="container section">
-      <h2>Projects</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Problem-Solving-Platform</h3>
-          <p>LeetCode-style platform in <strong>Spring Boot + Maven</strong> with modules for users, problems, contests, and rankings. CI via GitHub Actions; designed RESTful APIs and layered architecture.</p>
-          <p class="meta">Java · Spring Boot · PostgreSQL · GitHub Actions</p>
-          <div class="links">
-            <a href="#" target="_blank" rel="noopener">Repo</a>
-            <a href="#" target="_blank" rel="noopener">Live</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>Rectangle Packing (CP)</h3>
-          <p>Packed power-of-two rectangles into a 2D box using greedy + multiset; optimized to O(n log n) and passed strict time limits.</p>
-          <p class="meta">C++ · Greedy · Multiset</p>
-        </article>
-
-        <article class="card">
-          <h3>Dynamic Tree Shortest Paths</h3>
-          <p>Tree with dynamic edge updates and root-shortest queries using <strong>HLD + segment tree</strong>; optimized for fast online queries.</p>
-          <p class="meta">C++ · HLD · Segment Tree</p>
-        </article>
-
-        <article class="card">
-          <h3>Pythagorean Triplets in 2D</h3>
-          <p>Reduced TLE by indexing normalized vectors and using hash maps; significant speedup on dense point sets.</p>
-          <p class="meta">C++ · Geometry · Hashing</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="experience" class="container section">
-      <h2>Experience & Activities</h2>
-      <ul class="timeline">
-        <li>
-          <div class="time">2025</div>
-          <div class="content">
-            <strong>Backend Developer (Projects)</strong> — Built Spring Boot services, CI/CD, and API docs. Leveraged AI (Copilot/ChatGPT) to accelerate boilerplate and tests.
-          </div>
-        </li>
-        <li>
-          <div class="time">2024</div>
-          <div class="content">
-            <strong>Competitive Programming</strong> — Solved algorithmic problems with constraints up to 10^9; focused on robustness and performance.
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section id="education" class="container section">
-      <h2>Education</h2>
-      <p><strong>IIT (BHU) Varanasi</strong> — Integrated Dual Degree (B.Tech + M.Tech), Mathematics & Computer Science (Pre-final year)</p>
-    </section>
-
-    <section id="contact" class="container section">
-      <h2>Contact</h2>
-      <div class="contact-grid">
-        <a class="contact-card" href="mailto:ajay@example.com">
-          <div class="icon">✉️</div>
-          <div>
-            <div class="title">Email</div>
-            <div class="desc">ajay@example.com</div>
-          </div>
-        </a>
-        <a class="contact-card" href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">
-          <div class="icon">💼</div>
-          <div>
-            <div class="title">LinkedIn</div>
-            <div class="desc">@your-linkedin</div>
-          </div>
-        </a>
-        <a class="contact-card" href="https://github.com/your-github" target="_blank" rel="noopener">
-          <div class="icon">🐙</div>
-          <div>
-            <div class="title">GitHub</div>
-            <div class="desc">@your-github</div>
-          </div>
-        </a>
-        <a class="contact-card" href="https://www.youtube.com/@your-channel" target="_blank" rel="noopener">
-          <div class="icon">▶️</div>
-          <div>
-            <div class="title">YouTube</div>
-            <div class="desc">@your-channel</div>
-          </div>
-        </a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div>© <span id="year"></span> Ajay Gound</div>
-      <div class="dots">•</div>
-      <div><a href="assets/Ajay_Gound_Resume.pdf" target="_blank" rel="noopener">Resume</a></div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
